@@ -1,0 +1,251 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 0px;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: green;
+}
+
+/* ------------------------ */
+
+.header,
+.footer {
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 100px 0;
+}
+.part1 {
+	width: 1440px;
+	margin: 0 auto;
+	background: #f5f5f5 url("../img/bg.png") 100% -570px no-repeat;
+	padding: 110px 210px 113px 210px;
+}
+.main section:not(:first-child){
+	padding: 0px 210px 113px 210px;
+}
+.main section:last-child{
+	padding: 110px 210px 113px 210px;
+}
+
+.servicetitle {
+	max-width: 583px;
+}
+.mainservicetitle {
+	color: #5d62b5;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0 0 0 33px;
+	background: url("../img/icons/overline_mark.svg") 0px -5px no-repeat;
+	margin: 0 0 33px 0;
+}
+.subservicetitle {
+	margin: 0 0 78px 0;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000;
+}
+.services {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.serviceblocktopline {
+	vertical-align: top;
+	font-size: 0;
+	margin: 0 0 24px 0;
+}
+.serviceblocktopline div.serviceblock:not(:last-child) {
+	margin: 0 24px 0 0;
+}
+.serviceblockbottomline {
+	vertical-align: top;
+	margin: 0 0px 66px 0;
+}
+.serviceblockbottomline div.serviceblock:not(:last-child) {
+	margin: 0 24px 0 0;
+}
+
+.serviceblock {
+	text-align: center;
+	font-size: 16px;
+	padding: 50px 43px 50px 43px;
+	display: inline-block;
+	max-width: 324px;
+	background: #ffffff;
+	border-radius: 20px;
+}
+.serviceblock:hover {
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+.serviceblockimage {
+	margin: 0 0 33px 0;
+}
+.serviceblocktitle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 28px;
+	color: #f2726f;
+	margin: 0 0 20px 0;
+}
+.serviceblocktext {
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.button {
+	text-align: center;
+}
+.link {
+	display: block;
+	padding: 10px 0 10px 0;
+	width: 124px;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #f2726f;
+	border-radius: 8px;
+}
+
+.part2 {
+	background-color: #f5f5f5;
+	width: 1440px;
+	margin: 0 auto;
+	padding: 110px 210px 113px 210px;
+}
+
+.part2 .subservicetitle {
+	margin: 0 0 68px 0;
+}
+.promiseblocks {
+	font-size: 0;
+}
+.promiseblocks .promiseblock:not(:last-child) {
+	margin: 0 24px 0 0;
+}
+.promiseblock {
+	padding: 4px 3px 1px 0;
+	display: inline-block;
+	max-width: 324px;
+}
+
+.promiseblockimage {
+	margin: 0 23px 0 0;
+}
+.promiseblockbody {
+	max-width: 235px;
+	display: inline-block;
+}
+.serviceblocktitle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+}
+.serviceblocktext {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+.part3 {
+	background: #29c3be url("../img/bg_2.png") 625px 0 no-repeat;
+	width: 1440px;
+	margin: 0 auto;
+	padding: 110px 210px 113px 210px;
+}
+.part3 .servicetitle{
+	display: inline-block;
+	max-width: 411px;
+}
+.image {
+	margin: -190px 0 0 520px;
+}
+.mainimage {
+	border-radius: 40px;
+}
+.contentpart3{
+	margin: -120px 0 0 0;
+}
+.impacts {
+	font-size: 0;
+}
+.impacts .impact:not(:last-child){
+	margin: 0 24px 0 0;
+}
+.impact {
+	display: inline-block;
+	width: 237px;
+	font-size: 16px;
+}
+
+.impactimage {
+	margin: 0 11px 0 0;
+}
+.impactbody {
+	display: inline-block;
+}
+.impacttitle {
+	margin: 0 0 3px 0;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.impacttext {
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #5D62B5;
+}
